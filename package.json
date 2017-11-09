@@ -17,14 +17,19 @@
     "url": "https://github.com/bluesalt-labs/ledj-editor/issues"
   },
   "homepage": "https://github.com/bluesalt-labs/ledj-editor#readme",
-  "dependencies": {},
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0",
+    "moment": "^2.19.1",
+    "vue": "^2.5.3"
+  },
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-core": "^6.25.0",
     "babel-loader": "^7.1.1",
     "babel-preset-env": "^1.5.2",
     "css-loader": "^0.28.4",
-    "extract-text-webpack-plugin": "^2.1.2",
+    "node-sass": "^4.6.0",
     "style-loader": "^0.18.2",
     "webpack": "^3.0.0"
   }
