@@ -1,0 +1,123 @@
+/* Color Scheme - <http://paletton.com/#uid=7090u0kuPhGk7rhpYmyGvbUTp5w> */
+
+html, body {
+    position: relative;
+    width:100%;
+    width:100vw;
+    overflow-x: hidden;
+    top: 0; left: 0;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body * { font-family: 'Roboto', sans-serif; color: #00131C; }
+body, .body-container { background: #f3f3f3; }
+
+code, pre {
+    font-family: 'Roboto Mono', monospace;
+    color: #B40E01;
+}
+h1, h2, h3, h4, h5, h6 { font-weight: normal; }
+a:hover code,
+a:active code,
+a {
+    text-decoration: none;
+    color: #1B51A0;
+}
+a:visited { color: #4B7DC6; }
+a:hover,
+a:active,
+a:focus {
+    text-decoration: underline;
+    color: #0150C5;
+}
+
+.body-container {
+    padding: 15px;
+    max-width: 1230px;
+    margin: auto;
+}
+
+.body-container,
+.body-container * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.header {
+    background: rgba(0, 19, 28, 0.5);
+    padding: 60px 0 30px 0;
+    margin-bottom: 20px;
+
+    -webkit-box-shadow: 0 0 15px 0 rgba(0, 19, 28,0.75);
+    -moz-box-shadow: 0 0 15px 0 rgba(0, 19, 28,0.75);
+    box-shadow: 0 0 15px 0 rgba(0, 19, 28,0.75);
+}
+.header > .body-container {
+    background: none;
+    margin: auto;
+}
+
+.header-logo {
+    display: block;
+    max-width: 300px;
+    height: auto;
+    width: 100%;
+}
+
+.header-title, .sub-header-title {
+    text-align: left;
+    color: #f0f0f0;
+}
+
+.header-title > strong, .sub-header-title > strong {
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.header-title {
+    font-size: 48px;
+    margin: 15px 0 20px 0;
+}
+.sub-header-title {
+    font-size: 24px;
+    margin: 5px 0 15px 0;
+}
+h3.sub-header-title { font-size: 18px; }
+
+
+
+@media(min-width:600px) {
+    .header > .body-container { width: 570px; }
+    .header > .body-container > * { padding-left: 30px; }
+}
+
+@media(max-width:600px) {
+    .body-container { padding: 5px; }
+    .example-container { margin-left: -2.5px; }
+    .header { padding: 30px 0 15px 0; }
+    .header-logo {
+        max-height: 150px;
+        width: auto;
+        height: auto;
+        margin: 0 auto;
+    }
+    .header-title       { font-size: 36px; text-align: center; margin-left: -75px; }
+    .sub-header-title   { font-size: 18px; }
+    h3.sub-header-title { font-size: 14px; }
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    -webkit-clip-path: inset(50%);
+    clip-path: inset(50%);
+    border: 0;
+}
