@@ -1,10 +1,76 @@
 <!DOCTYPE html>
+<!-- index.html page -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="application-name" content="LedjEditor"/>
+
+    <!--
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="apple-touch-icon-152x152.png" />
+    <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+    <link rel="icon" sizes="300x300" href="ledj-icon.png">
+    -->
+
+    <meta name="msapplication-TileColor" content="#074059" />
+    <meta name="theme-color" content="#074059">
+
+    <title>Ledj Editor | Test</title>
+
+    <!-- Stylesheets -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700|Roboto+Mono" rel="stylesheet" />
+    <link href="assets/ledj.min.css" rel="stylesheet" />
+    <link href="assets/ledj-editor.min.css" rel="stylesheet" />
+    <link href="assets/docs-styles.css" rel="stylesheet" />
+
+    <script type="text/javascript" src="assets/ledj.min.js"></script>
+    <script type="text/javascript" src="assets/ledj-editor.min.js"></script>
+
+    <script type="text/javascript">
+        document.addEventListener("DOMContentLoaded", function() {
+            Ledj.attach('/assets/data/table-data.json', 'table-data-output');
+        });
+    </script>
 </head>
 <body>
+
+<div class="header">
+    <div class="body-container">
+        <!--<img class="header-logo" src="assets/images/ledj.png" />-->
+        <h1 class="header-title">Ledj Editor</h1>
+
+        <!--
+        <h2 class="sub-header-title">
+            <strong>L</strong>oad <strong>E</strong>lements <strong>D</strong>ynamically from <strong>J</strong>SON
+        </h2>
+        -->
+        <h3 class="sub-header-title">
+            A JSON data editor plugin for <a href="https://ledj.bluesaltlabs.com">Ledj.js</a> data files.
+        </h3>
+        <h3 class="sub-header-title">Created by BlueSalt Labs</h3>
+    </div>
+</div>
+
+<div class="body-container">
+    <h1>Getting Started</h1>
+    <div>
+        <code>#todo</code>
+    </div>
+
+    <hr />
+
+    <h1>Examples</h1>
+
+    <div class="example-container">
+        <h2>Link Table</h2>
+        <div class="ledj-output-container" id="table-data-output"></div>
+    </div>
+
+    <hr />
+
+</div>
 
 </body>
 </html>

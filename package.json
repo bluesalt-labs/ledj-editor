@@ -9,7 +9,7 @@
     "clean:dist": "rm -rf dist/*",
     "clean:docs": "rm -rf docs/assets/*.min.css docs/assets/*.min.js",
     "copy-css:docs": "cp dist/*.min.css docs/assets/",
-    "copy-js:docs": "cp dist/*.min.js docs/assets/",
+    "copy-js:docs": "cp dist/*.min.js docs/assets/ && cp node_modules/ledj/dist/ledj.min.* docs/assets/",
     "copy-css": "npm run copy-css:docs",
     "copy-js": "npm run copy-js:docs",
     "copy": "npm run copy-css && npm run copy-js",

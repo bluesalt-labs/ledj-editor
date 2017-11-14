@@ -1,0 +1,54 @@
+{
+  "config": {
+    "type": "table",
+    "headers": {
+      "title": {
+        "name": "Name/URL",
+        "type": "url",
+        "href": "url"
+      },
+      "description": {
+        "name": "Description",
+        "type": "string"
+      },
+      "date": {
+        "name": "Date Added",
+        "type": "date"
+      },
+      "tags": {
+        "name": "Tags",
+        "type": "tag-array"
+      }
+    },
+    "imgExt": ".png",
+    "titleElementLevel": 3
+  },
+  "data": {
+    "Links": [
+      {
+        "title": "GitHub - BlueSalt Labs",
+        "description": "BlueSalt Labs on Github",
+        "url": "https://github.com/bluesalt-labs/",
+        "date": "2017-11-11",
+        "filename": "github-bluesalt-labs",
+        "tags": ["GitHub", "BlueSalt Labs"]
+      },
+      {
+        "title": "GitHub - Lukerz8",
+        "description": "Lukerz8 on Github",
+        "url": "https://github.com/lukerz8",
+        "date": "2017-11-11",
+        "filename": "github-lukerz8",
+        "tags": ["GitHub", "lukerz8"]
+      },
+      {
+        "title": "CodePen - BlueSalt Labs",
+        "description": "BlueSalt Labs on Codepen",
+        "url": "https://codepen.io/bluesaltlabs/",
+        "date": "2017-11-11",
+        "filename": "codepen-bluesalt-labs",
+        "tags": ["CodePen", "BlueSalt Labs"]
+      }
+    ]
+  }
+}
